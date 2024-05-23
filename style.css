@@ -163,9 +163,9 @@
     background-color: #FFFFFF;
     /* z-index: 1; */ 
 }
-.seperater{
+/* .seperater{
     margin-left: 20px;
-}
+} */
 .back-design{
     padding-top: 20px;
     padding-bottom: 15px;
@@ -176,14 +176,17 @@
 .content{
     background-color: #E3E6E6;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     display: flex;
     justify-content: center;
 }
 .inner-con{
-    background-color: rgb(0, 255, 255,0);
-    width: 1500px;
+    background-color: rgba(23, 206, 206, 0);
+    width: 1500px; 
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
     
     
 }
@@ -224,11 +227,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 .con-box-heading{
     margin-left: 15px;
     font-size: 21px;
     color: #0F1111;
+    font-weight: 700;
 }
 .con-box-seemore{
     margin-left: 15px;
@@ -250,4 +255,52 @@
 .four{
     background-image: url("Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg");
     background-size: cover;
+}
+.five{
+    background-image: url("dinig.jpg");
+    background-size: cover;
+    
+}
+.six{
+    background-image: url("home.jpg");
+    background-size: cover;
+    
+}
+.seven{
+    background-image: url("kitchen.jpg");
+    background-size: cover;
+    
+}
+.eight{
+    background-image: url("health.jpg");
+    background-size: cover;
+    
+}
+.nine{
+    background-image: url("jeans.jpg");
+    background-size: cover;
+}
+.ten{
+    background-image: url("tops.jpg");
+    background-size: cover;
+}
+.eleven{
+    background-image: url("dresses.jpg");
+    background-size: cover;
+}
+.twelve{
+    background-image: url("shoes.jpg");
+    background-size: cover;
+}
+.thirteen{
+    background-image: url("pc.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 320px;
+    margin-left: 20px;
+    
+}
+
+.secondrowcontent{
+    padding-top: 20px;
 }
