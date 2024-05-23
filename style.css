@@ -106,6 +106,9 @@
 .cart{
     display: flex;
     align-items: baseline;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 11px;
 }
 .nav-search:hover{
     border: 1px solid orange;
@@ -135,4 +138,116 @@
     padding-right: 9px;
     color: #FFFFFF;
     
+}
+.background{
+    background-color: #E3E6E6;
+    width: 100%;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+.back-img{
+    height: 350px;
+    width: 1500px;
+    background-image: url("back my.jpg");
+    z-index: 0.5;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    
+}
+.con-box1{
+    height: 385px;
+    width: 360px;
+    background-color: #FFFFFF;
+    /* z-index: 1; */ 
+}
+.seperater{
+    margin-left: 20px;
+}
+.back-design{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.background .back-box1{
+    justify-content: left;
+}
+.content{
+    background-color: #E3E6E6;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.inner-con{
+    background-color: rgb(0, 255, 255,0);
+    width: 1500px;
+    display: flex;
+    
+    
+}
+.con-box-heading{
+    height: 27px;
+    width: 320px;
+    
+}
+.con-box-seemore{
+    height: 16px;
+    width: 320px;
+    
+
+}
+.k{
+    width: 155px;
+    height: 125px;
+    margin-left: 15px;
+    background-color: aqua;
+}
+#okk{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #0F1111;
+}
+.con-box-con{
+    
+    
+    
+}
+.firstrow{
+    display: flex;
+}
+.secondrow{
+    display: flex;
+}
+.con-box1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.con-box-heading{
+    margin-left: 15px;
+    font-size: 21px;
+    color: #0F1111;
+}
+.con-box-seemore{
+    margin-left: 15px;
+    color: #007185;
+    font-size: 13px;
+}
+.one{
+    background-image: url("Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg");
+    background-size: cover;
+}
+.two{
+    background-image: url("Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg");
+    background-size: cover;
+}
+.three{
+    background-image: url("Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg");
+    background-size: cover;
+}
+.four{
+    background-image: url("Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg");
+    background-size: cover;
 }
